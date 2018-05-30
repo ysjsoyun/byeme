@@ -1,0 +1,121 @@
+body,
+html {
+    height: 100%;
+}
+
+legend {
+    font-size: 20pt;
+}
+
+form {
+    text-align: center;
+    font-family: "Avenir";
+}
+
+#result {
+    text-align: center;
+    font-family: "Avenir";
+    font-size: 15pt;
+}
+
+#price {
+    text-align: center;
+    font-family: "Avenir";
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+#description {
+    text-align: center;
+    font-family: "Avenir";
+    font-size: 15pt;
+}
+
+#yourname {
+    text-align: center;
+    font-family: "Avenir";
+    font-size: 15pt;
+}
+
+#endsentence {
+    text-align: center;
+    font-family: "Avenir";
+    font-size: 15pt;
+}
+
+#goback {
+
+    text-align: center;
+    margin: auto;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("bg.jpg");
+
+    /* Full height */
+    height: px;
+
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*
+.multiplecheckbox {
+
+    display: inline-block;
+    max-width: 700px;
+    min-width: 700px;
+
+}
+
+.name {
+
+    display: inline-block;
+    max-width: 700px;
+    min-width: 700px;
+}
+*/
+
+fieldset {
+    display: block;
+    max-width: 700px;
+    min-width: 700px;
+    margin: auto;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
+
+button {
+    font-family: "Avenir";
+    background-color: black;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.logo {
+display: block;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+button:hover {
+    background-color: gray;
+}

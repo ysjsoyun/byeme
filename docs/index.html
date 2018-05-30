@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+
+    <title>ByeMe | Get A Quote For Your Data Funeral</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body>
+    <div class="bg">
+        <img src="logo.jpg" class="logo">
+        <form>
+            
+            <div class="name">
+                Fill this form and get a quick, simple quote for your data funeral! <br><br><br>
+                <fieldset>
+                    <legend><b>Your name</b></legend><br> First name: <input type="text" id="first_name" />
+                    <br> Last name: <input type="text" id="last_name" /> <br><br>
+                </fieldset>
+            </div>
+            <br>
+            <br>
+
+            <div class="multiplecheckbox">
+                <fieldset>
+                    <legend><b>Which social media websites <br> have you made an account(s) for?</b></legend>
+
+                    <br>
+
+
+                    <input class="snswebsite" type="checkbox" value="facebook"> Facebook
+                    <input class="snswebsite" type="checkbox" value="instagram"> Instagram
+                    <input class="snswebsite" type="checkbox" value="linkedin"> Linkedin
+                    <input class="snswebsite" type="checkbox" value="twitter"> Twitter
+                    <input class="snswebsite" type="checkbox" value="Google+"> Google+
+                    <input class="snswebsite" type="checkbox" value="youtube"> YouTube
+                    <input class="snswebsite" type="checkbox" value="tumblr"> Tumblr <br><br>
+                    <input class="snswebsite" type="checkbox" value="reddit"> Reddit
+                    <input class="snswebsite" type="checkbox" value="snapchat"> Snapchat
+                    <input class="snswebsite" type="checkbox" value="whatsapp"> WhatsApp
+                    <input class="snswebsite" type="checkbox" value="weibo"> Weibo
+                    <input class="snswebsite" type="checkbox" value="flickr"> Flickr
+                    <input class="snswebsite" type="checkbox" value="meetup"> Meetup
+                    <input class="snswebsite" type="checkbox" value="myspace"> Myspace <br><br>
+                    <input class="snswebsite" type="checkbox" value="wechat"> WeChat
+                    <input class="snswebsite" type="checkbox" value="others"> Others
+                    <br><br>
+
+
+                </fieldset>
+            </div>
+            <br><br>
+            <fieldset>
+                <legend><b>How long have you been using <br> any type of social media in total?</b></legend>
+                <br>
+                <div id="years">
+                    <input type="radio" class="radiodata" data-points="0" name="group1" value="0" /> never <br>
+                    <input type="radio" class="radiodata" data-points="100" name="group1" value="1" /> less than 1 year <br>
+                    <input type="radio" class="radiodata" data-points="200" name="group1" value="2" /> 1-2 years <br>
+                    <input type="radio" class="radiodata" data-points="600" name="group1" value="6" /> 3-6 years <br>
+                    <input type="radio" class="radiodata" data-points="900" name="group1" value="8" /> 7-9 years <br>
+                    <input type="radio" class="radiodata" data-points="1200" name="group1" value="10" /> more than 10 years <br><br>
+                </div>
+
+            </fieldset>
+            <br><br>
+            <button type="button" id='submitbutton'> Submit and get your quote! </button> <br> <br> <br>
+        </form>
+    </div>
+    <div class="bg">
+        <div id="result">
+            <div class="bg">
+                <br><br><br>
+                <br> Thank you for your interest in our services. <br> Based on your information, we made a quote only for you.<br><br><br><br>
+            </div>
+
+
+
+            <div id="description">
+            </div>
+            <div id="yourname">
+            </div>
+            <br>
+            <div id="endsentence">
+            </div>
+            <br><br>
+            <br>
+
+
+            <div id="price">
+            </div><br><br>
+
+            <div id="goback">
+                <br><br>
+                <button type="button" id="button2"> <i class="material-icons" style="font-size:20px">undo</i> Go back <i class="material-icons" style="font-size:20px">undo</i></button>
+                <button onclick="myFunction()"><i class="material-icons" style="font-size:20px">texture</i> Print this page <i class="material-icons" style="font-size:20px">texture</i></button>
+                <script>
+                    function myFunction() {
+                        window.print();
+                    }
+                </script>
+                <br><br><br><br>
+            </div>
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
